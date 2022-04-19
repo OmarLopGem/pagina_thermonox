@@ -1,0 +1,133 @@
+.contenido_thermonoxilo {
+    background-color: white;
+}
+
+.primer_cont {
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    background-color: #323232;
+}
+
+.descripcion_thx {
+    text-align: justify;
+    color: white;
+    font-size: 22px;
+    width:775px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 50px;
+}
+
+#control {
+    background-color: #FFD531;
+    border-radius: 10px;
+    color: black;
+    padding: 5px;
+}
+
+.img_thx{
+    width: 350px;
+    box-shadow: 5px 7px 10px #323232;
+    flex-grow: 2;
+}
+
+.imagenes {
+    background-color: #eb5b25;
+    padding: 60px;
+    border-radius: 10px;
+}
+
+.segundo_cont {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+#calefactor_titulo {
+    font-size: 25px;
+    text-align: center;
+    padding: 60px;
+    text-decoration: underline;
+}
+
+.descripcion_inicial {
+    font-size: 18px;
+    width: 900px;
+    padding-bottom: 60px;
+}
+
+.datos {
+    padding-bottom: 20px;
+}
+
+#titulo_datos {
+    padding-bottom: 20px;
+    font-size: 22px;
+}
+
+#lista_datos {
+    background-color: #FFD531;
+    padding: 40px;
+    border-radius: 10px;
+    list-style: disc;
+    font-size: 18px;
+}
+
+#imagenes_calentador {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img_cal {
+    width: 350px !important;
+    box-shadow: 5px 7px 10px #323232;
+}
+
+.tercer_contenido {
+    display: flex;
+    justify-content: center;
+    background-color: #323232;
+    color: white;
+}
+
+.texto_tercer_cont {
+    width: 600px;
+    text-align: justify;
+    padding: 40px;
+}
+
+.titulo_tercer_cont {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .primer_cont {
+        flex-wrap: wrap;
+    }
+
+    .imagenes {
+        width: 100%;
+        padding: 0 0 0 0px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .descripcion_thx {
+        padding-left: 50px;
+    }
+
+    .alineacion {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    #imagenes_calentador {
+        display: flex;
+        justify-content: center;
+    }
+}
