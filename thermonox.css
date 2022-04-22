@@ -1,0 +1,268 @@
+.aplicaciones {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    text-align: justify;
+    background-image: url(./img/muehle-p.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding-top: 20px;
+}
+
+.descripcion {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 30px;
+}
+
+#informacion_thermonox {
+    display: flex;
+    justify-content: center;
+}
+
+.llamada_info_ap {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_info_ap {
+    width: 500px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: white;
+}
+
+#resaltado_texto {
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+
+.fondo_texto {
+    background-color: #FFD531;
+    padding: 20px;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.info_aplicaciones {
+    background-color: #eb5b25;
+    color: white;
+}
+
+#lista_secado {
+    list-style-image: url(./img/image_datos.png);   
+}
+
+.secado_limitaciones {
+    background-color: #323232;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    padding: 40px;
+}
+
+.secado {
+    width: 600px;
+    padding-right: 30px;
+}
+
+.limitaciones{
+    width: 600px;
+}
+
+.limitaciones ul{
+    list-style: disc;
+}
+
+.funcionamiento_thermonox_datos {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    background-image: url(./img/muehle-f-1.jpg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    padding: 160px;
+}
+
+.primer_texto {
+    background-color: #eb5b25;
+    width: 700px;
+    margin-right: 50px;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.segundo_texto {
+    background-color: #FFD531;
+    width: 700px;
+    padding: 30px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+#titulo_desinfeccion {
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+#info_titulo {
+    font-size: 25px;
+    text-align: center;
+    padding: 60px;
+    text-decoration: underline;
+}
+
+.info_thermonox {
+    background-color: white;
+}
+
+.line {
+    background-color: lightgrey;
+    padding: 1px;
+    margin: 8px;
+}
+
+.lista {
+    padding: 0px 200px;
+    padding-bottom: 40px;
+    text-align: justify;
+    color: black;
+}
+
+.lista ul {
+    list-style: disc;
+}
+
+.parte_final {
+    background-color: #eb5b25;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.lista_ventajas {
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color:#eb5b25;
+    padding-bottom: 30px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.primera_columna{
+    width: 700px;
+    margin: 30px;
+}
+
+.segunda_columna {
+    width: 700px;
+    margin: 30px;
+}
+
+.ventajas ul {
+    list-style-image: url(./img/image_datos.png);
+}
+
+.seguridad {
+    color: white;
+    background-color: #FFD531;
+    padding:100px;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.encuadre {
+    display: flex;
+    justify-content: center;
+}
+
+.cuadro_gris {
+    background-color: #323232;
+    padding: 40px;
+    width: 50%;
+}
+
+.titulo_info_seg {
+    width: 500px;
+    font-weight: bold;
+    padding-bottom: 10px;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.cuadro_naranja {
+    background-color: #eb5b25;
+    padding: 40px;
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .aplicaciones {
+        flex-wrap: wrap;
+    }
+    .descripcion {
+        
+        padding: 0 0 0 0;
+    }
+    .informacion_aplicaciones {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .titulo_info_ap {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .funcionamiento_thermonox_datos {
+        flex-wrap: wrap;
+        padding: 0 0 0 0px;
+        width: 100%;
+    }
+    .trata_da {
+        color: white;
+        padding:0px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .seg_prot {
+        color: white;
+        padding:0px;
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+    .lista {
+        padding: 10px;
+    }
+    .primer_texto {
+        width: 100%;
+        margin: 0;
+    }
+    .titulo_p {
+        font-size: 40px;
+    }
+    .primera_columna {
+        width: 140px;
+    }
+    #resaltado_texto {
+        margin: 0;
+    }
+    .fondo_texto {
+        margin-bottom: 120px;
+    }
+    .aplicaciones {
+        background-color: #FFD531;
+    }
+    .seguridad {
+        padding: 0;
+        font-size: 18px;
+    }
+}
